@@ -8,7 +8,7 @@ public class Exercise_01 {
         System.out.print("Input end: ");
         int numEnd = scan.nextInt();
         for(int i = numStart; i <= numEnd ;i ++){
-            System.out.printf("%s%d"," ",i);
+            System.out.printf("%d%s",i," ");
         }
     }
 }
